@@ -28,7 +28,7 @@ class Song
     self.class.all << self
   end
   
-  def self.find_by_name(string)
+  def self.find_by_name(search)
     @@all.find do |name|
       return name if 
     end
