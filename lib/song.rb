@@ -35,7 +35,7 @@ class Song
     false
   end
   
-  def self.find_or_create_by_name(name)
+  def self.find_or_create_by_name(title)
   end
 
 end
