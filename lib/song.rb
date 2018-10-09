@@ -51,6 +51,11 @@ class Song
     
     name = parsed[0]
     title = parsed[1].split(".").take(1)
+    
+     song = self.new 
+    song.artist_name = artist 
+    song.name = song_name 
+    song 
   end
 
 end
