@@ -50,7 +50,7 @@ class Song
     parsed = filename.split(" - ")
     
     name = parsed[0].first
-    title = parsed[1].split(".").take(1)
+    title = parsed[1].split(".").take(1).first
   end
 
 end
