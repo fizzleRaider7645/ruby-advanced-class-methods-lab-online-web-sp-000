@@ -32,6 +32,7 @@ class Song
     @@all.find do |name|
       return name if name == search
     end
+    false
   end
 
 end
